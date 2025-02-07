@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+header{
+background: red;
+height: 70px;
+width: 100%;
+}
+footer{
+    background: blue;
+    height: 70px;
+    width: 100%; 
+}
+nav ul{
+display: flex;
+list-style: none;
+}
+nav ul li{
+    padding: 0 10px;
+}
+nav ul li a{
+    padding: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.homebanner{
+    background: url('https://assets.cntraveller.in/photos/60b9eff9010276881eb4d338/16:9/w_1600,h_900,c_limit/kanchenjungalead.jpg') no-repeat center;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 40px;
+
+}
+.aboutbanner{
+    background: url('https://assets.cntraveller.in/photos/60b9eff9010276881eb4d338/16:9/w_1600,h_900,c_limit/kanchenjungalead.jpg') no-repeat center;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 40px;
+}
